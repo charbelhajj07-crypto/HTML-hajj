@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Style Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #ffffff; /* White background */
+      color: #555555; /* Grey text */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 10px 0;
+      color: #333333;
+    }
+
+    p {
+      margin: 10px 0 30px 0;
+      font-size: 14px;
+    }
+
+    .colors {
+      margin-bottom: 40px;
+    }
+
+    .color-swatch {
+      display: flex;
+      align-items: center;
+      margin: 5px 0;
+    }
+
+    .color-box {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .orange { background-color: #FF7A00; }
+    .grey { background-color: #e0e0e0; }
+    .white { background-color: #ffffff; border: 1px solid #aaa; }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .btn {
+      padding: 10px 16px;
+      margin-right: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .btn-primary {
+      background-color: #FF7A00; /* Orange */
+      color: #ffffff;
+    }
+
+    .btn-secondary {
+      background-color: #e0e0e0; /* Light Grey */
+      color: #333333;
+    }
+
+    .btn-outline {
+      background-color: #ffffff;
+      color: #FF7A00;
+      border: 2px solid #FF7A00;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Headings</h2>
+  <h1>This is an H1 Heading</h1>
+  <h2>This is an H2 Heading</h2>
+  <h3>This is an H3 Heading</h3>
+  <h4>This is an H4 Heading</h4>
+  <h5>This is an H5 Heading</h5>
+  <h6>This is an H6 Heading</h6>
+  <p>Paragraph goes here</p>
+
+  <h2>Colors</h2>
+  <div class="colors">
+    <div class="color-swatch">
+      <div class="color-box orange"></div>
+      Orange (#FF7A00)
+    </div>
+    <div class="color-swatch">
+      <div class="color-box grey"></div>
+      Grey (#e0e0e0)
+    </div>
+    <div class="color-swatch">
+      <div class="color-box white"></div>
+      White (#ffffff)
+    </div>
+  </div>
+
+  <h2>Buttons</h2>
+  <div class="buttons">
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-outline">Outline Button</button>
+  </div>
+
+</body>
+</html>
